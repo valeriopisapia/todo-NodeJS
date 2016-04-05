@@ -12,10 +12,22 @@ RESTful API using Node and Express
 - declare our routes using Express
 - test our API
 
+Make sure you have Node installed and let’s get to it!
+
+INSTALLING OUR NODE PACKAGES
+
+`npm install`
+
+STARTING OUR SERVER AND TESTING
+
+`node app.js`
+
 #Structure
 - app.js
 - config/   --> Mongo configuration
-- controllers/  apiController.js, setupController.js
+- controllers/  
+  * apiController.js
+  * setupController.js
 - models/ --> Todo Model
 - public/
 - views/
